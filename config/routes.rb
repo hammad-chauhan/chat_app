@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/login', to: 'sessions#new'
   post '/login', controller: "sessions", action: "create"
   delete '/logout', controller: "sessions", action: "destroy"
+  post 'message', to: 'messages#create'
 end
