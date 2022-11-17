@@ -11,6 +11,13 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="ui small inverted menu">
+      <div class="ui container">
+        <%= render 'layouts/menu'%>  
+      </div>
+    </div>
+    <div class="ui container">
+      <%= yield %>
+    </div>
   </body>
 </html>
