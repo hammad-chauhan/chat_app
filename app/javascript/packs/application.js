@@ -15,6 +15,5 @@ ActiveStorage.start()
 
 
 $(document).on('turbolinks:load', ()=>{
-    debugger;
   $('.ui.dropdown').dropdown();
 })
